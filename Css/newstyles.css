@@ -1,0 +1,152 @@
+
+body {
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  font-size: 562.5%;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  color: #4a1c40;
+}
+
+h2 {
+  color: #763857;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+  padding-bottom: 10px;
+  margin: 0;
+
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #944e6c;
+  margin: 50px 0;
+}
+
+a {
+  color: #4a1c40;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ffe6e6;
+}
+
+hr {
+  border: dotted grey 6px;
+  border-bottom: none;
+  width: 5%;
+  margin: 100px auto;
+}
+
+p {
+    line-height: 2;
+}
+
+.top-container {
+  background-color: #c3aed6;
+  position: relative;
+  padding-top: 100px;
+
+}
+
+.middle-container {
+  margin: 100px 0;
+}
+
+.bottom-container {
+  background-color: #944e6c;
+  padding: 50px 0 20px;
+  margin-top: 30px;
+}
+
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.profile-img {
+  width: 15%;
+  margin-bottom: 50px;
+}
+
+
+.top-cloud {
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  right: 300px;
+  top: 40px;
+}
+
+.webimg {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.foodimg {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.mycopyright-text {
+  color: white;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+}
+
+.contacttext {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.CONTACTME_BUTTN {
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 10px;
+   height: 10px;
+   line-height: 12px;
+   color: #FFFFFF;
+   font-family: Open Sans;
+   width: 200px;
+   font-size: 22px;
+   font-weight: 100;
+   padding: 20px;
+   background-color: #763857;
+   border: solid #337FED 1px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.CONTACTME_BUTTN:hover {
+   background: #944e6c;
+   border: solid #692781 1px;
+   -webkit-border-radius: 21px;
+   -moz-border-radius: 21px;
+   border-radius: 21px;
+   text-decoration: none;
+}
